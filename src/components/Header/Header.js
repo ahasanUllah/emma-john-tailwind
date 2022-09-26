@@ -12,17 +12,25 @@ const Header = () => {
             <div className="flex-none">
                <ul className="menu menu-horizontal p-0 text-white">
                   <li>
-                     <a href="/">Order</a>
+                     <a className="hover:text-orange-500" href="/">
+                        Order
+                     </a>
                   </li>
                   <li>
-                     <a href="/">Order Review</a>
+                     <a className="hover:text-orange-500" href="/">
+                        Order Review
+                     </a>
                   </li>
                   <li>
-                     <a href="/">Manage Inventory</a>
+                     <a className="hover:text-orange-500" href="/">
+                        Manage Inventory
+                     </a>
                   </li>
 
                   <li>
-                     <a href="/">Login</a>
+                     <a className="hover:text-orange-500" href="/">
+                        Login
+                     </a>
                   </li>
                </ul>
             </div>
